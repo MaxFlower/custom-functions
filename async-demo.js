@@ -1,0 +1,5 @@
+console.log('1')
+setTimeout(() => console.log('timeout'), 0)
+console.log('2')
+Promise.resolve().then(() => console.log('promise'))
+console.log('3')
